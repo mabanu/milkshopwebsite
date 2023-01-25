@@ -680,3 +680,5 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,webstorm,visualstudio,visualstudiocode
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml

@@ -4,7 +4,10 @@ import CardTemplate from "./card";
 import {MilkModel} from "../models/milkModel";
 import {milkAPI} from "../milkAPI";
 
-function CardList() {
+interface IPropTypes {
+    propTypes: (x: string[]) => void
+}
+function CardList(props : IPropTypes ) {
     const [products, setProducts] = useState<MilkModel[]>([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
@@ -31,6 +34,9 @@ function CardList() {
         loadProducts();
     }, []);
 
+    let cbTypes = products.map(m => m.type);
+    let passPropType = Array.from(new Set(cbTypes));
+    props.propTypes(passPropType)
     return (
         <Box sx={{p: 5}}>
             <Grid container spacing={{xs: 6, md: 7}} columns={{xs: 4, sm: 8, md: 12}}>
