@@ -8,6 +8,8 @@ import {MilkModel} from "../models/milkModel";
 import {ShoppingCartRounded} from "@mui/icons-material";
 import ShareIcon from '@mui/icons-material/Share';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import milkPhoto from './milk.png';
+import {milkAPI} from "../milkAPI";
 
 interface IProduct {
     product: MilkModel
@@ -24,8 +26,7 @@ function CardTemplate(props: IProduct) {
             ) : (
                 <CardMedia
                     component="img"
-                    height="140"
-                    image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.pTYJDnQuER-Jz4nCymS_lgHaHa%26pid%3DApi&f=1&ipt=ff2ecab549ce9e4e33b7d7395507079aed95142218dc7b89ae41148c1900cf05&ipo=images"
+                    image={milkPhoto}
                     alt="milk product"
                 />
             )}

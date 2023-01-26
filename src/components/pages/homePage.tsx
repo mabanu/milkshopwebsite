@@ -1,7 +1,5 @@
 function HomePage() {
-    return (
-        <>ToDo</>
-    )
+    return (<>ToDo</>)
 }
 
 export default HomePage
