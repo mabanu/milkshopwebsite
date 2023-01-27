@@ -25,7 +25,9 @@
    ## Description
    
    This is a WebSite of a Milk Company to list his products, made as a concept excercise to develop a full project from BackEnd to FrontEnd and the use of some interesting tools made in 5 days.
+   
    For FrontEnd, It use React with TypeScript and Material UI for styling and components.
+   
    For BackEnd check MilkWebShopAPI repository.
    
    The Website fetch data from an REST API and have a filter base on the type of milk product.
