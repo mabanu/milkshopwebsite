@@ -32,15 +32,9 @@
    
    ## Look
    
-   <div id="header" align='center'>
-   <image src="![Screenshot_20230127_093535](https://user-images.githubusercontent.com/64554427/215193295-dedfc220-e8a8-4b2d-a8fb-27c8b7632dbe.png)
-" alt="web preview">
-</div>
+   ![Screenshot_20230127_093535](https://user-images.githubusercontent.com/64554427/215193295-dedfc220-e8a8-4b2d-a8fb-27c8b7632dbe.png)
 
-<div id="header" align='center'>
-   <image src="![Screenshot_20230127_093903](https://user-images.githubusercontent.com/64554427/215193375-113fae15-9f59-412a-9634-7457ebdfc2f5.png)
-" alt="web prewiew filter">
-</div>
+![Screenshot_20230127_093903](https://user-images.githubusercontent.com/64554427/215193375-113fae15-9f59-412a-9634-7457ebdfc2f5.png)
    
    
    <h3 align="left">Languages and Tools:</h3>
